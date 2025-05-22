@@ -1,7 +1,12 @@
 import sys
+import warnings
 
 import paho.mqtt.client as paho
+
 from text import txt
+
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 client = paho.Client()
 
 if client.connect("localhost", 1883, 60) != 0:

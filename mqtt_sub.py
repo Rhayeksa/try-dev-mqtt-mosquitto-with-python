@@ -1,6 +1,9 @@
 import sys
+import warnings
 
 import paho.mqtt.client as paho
+
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
 def message_handling(client, userdata, msg):
