@@ -8,18 +8,27 @@ percobaan membuat code python untuk implementasi broker MQTT Mosquitto
 
 - computer sudah terinstall python
 
-### Subcription
+### How To
 
-jalankan perintah
+1. Clone repository,
+2. buka terminal/cmd dan arahkan path pada project, kemudian
+3. buat dan masuk ke mode virtual env, dan
+4. install library yang dibutuhkan dengan perintah
 
-```bash
-python mqtt_sub.py
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Publisher
+5. jalankan file python mqtt_sub.py untuk subription dan jalankan file python mqtt_pub.py untuk melakukan publish
 
-jalankan perintah
+- Subcription
 
-```bash
-python mqtt_pub.py
-```
+    ```bash
+    python mqtt_sub.py
+    ```
+
+- Publisher
+
+    ```bash
+    python mqtt_pub.py
+    ```
