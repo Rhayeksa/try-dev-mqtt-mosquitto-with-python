@@ -21,14 +21,14 @@ percobaan membuat code python untuk implementasi broker MQTT Mosquitto
 
 5. jalankan file python mqtt_sub.py untuk subription dan jalankan file python mqtt_pub.py untuk melakukan publish
 
-- Subcription
+   - Subcription
 
-    ```bash
-    python mqtt_sub.py
-    ```
+   ```bash
+   python mqtt_sub.py
+   ```
 
-- Publisher
+   - Publisher
 
-    ```bash
-    python mqtt_pub.py
-    ```
+   ```bash
+   python mqtt_pub.py
+   ```
